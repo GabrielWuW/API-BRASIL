@@ -19,7 +19,7 @@ const express = require('express');     //Responsavel pela API
 const cors = require('cors');        //Responsavel pelas permissões da API (APP)
 const bodyParser = require('body-parser'); //Responsavel por gerenciar a chegada dos dados da API com o front
 
-const dados = require('./modulo/funcoes.js'); //import do arquivo de funções
+const dados = require('./module/funcoes.js'); //import do arquivo de funções
 
 
 //Retorna a porta do servidor atual ou colocamos uma porta local
